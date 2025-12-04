@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Run CLI (market order example)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/chat bot/cli.py",
+      "console": "integratedTerminal",
+      "args": ["--symbol", "BTCUSDT", "--side", "BUY", "--type", "market", "--quantity", "0.001"],
+      "envFile": "${workspaceFolder}/chat bot/.env"
+    }
+  ]
+}
